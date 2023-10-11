@@ -3,6 +3,8 @@ import OpenAI from 'openai'
 
 // Guarda la key de la api
 const API_KEY = process.env.API_KEY
+
+console.log(API_KEY)
 // Hace un promt personalizada sobre la categoria seleccionada
 const promptCustom = (theme) => {
     return `
